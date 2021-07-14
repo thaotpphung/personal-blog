@@ -1,0 +1,36 @@
+title: Thao Phung
+description: > # this means to ignore newlines until "baseurl:"
+  My name is Thao. I’m an aspiring Software Engineer,
+  coffee drinker and huge nerd living in
+  St. Louis, Missouri.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.thaofun.com" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Thao Phung # add your name
+author-img: thao-phung.png # add your photo
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+social-twitter: somethao # add your Twitter handle
+social-github: thaotpphung # add your Github handle
+social-linkedin: thaotpphung # add your Linkedin handle
+social-email: thao.tp.phung@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: thaofun-com # add your discus identifier
+
+# Tracker
+analytics: G-MBL0K9MM0W # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
